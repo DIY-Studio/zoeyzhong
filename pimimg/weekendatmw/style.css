@@ -1,0 +1,320 @@
+.body{
+    margin:0;
+}
+.homeconcept1{
+    background-image: url(homeimage/home.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 820px;  
+}
+.homeheaderwrapper a{
+    height: 350px;
+    width:400px;
+    background-image: url(homeentrance.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin:100px;
+    padding-top:0.5px;
+    display: block;
+    float:left;
+    position:relative;
+}
+.subline{
+    font-size:23px;
+    color:white;
+    margin-top: 480px;
+    margin-left: 100px;
+    position:absolute;
+    font-family:skia;
+    font-weight: light;
+}
+.categoryheader{
+    background-image: url(homeimage/Categoryheader.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height:100px;
+    margin-left:100px;
+    margin-top:30px;
+}
+#headsubline{
+    margin-left:100px;
+    margin-top: 5%;
+    
+}
+#headsubline2{
+    margin-left:100px;
+    margin-bottom: 10%;
+}
+
+.category{
+    background-color: aliceblue;
+/*    background-color: #146075;*/
+    overflow:auto;
+    padding-top: 5%;
+    padding-bottom: 15%;
+}
+.categoryimagerow1{
+    margin:50px 10px 50px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: skia;
+    justify-content: center;
+}
+.categoryimagerow1 image{
+    margin: 0 auto;
+}
+.cbookstore{
+    background-image:url(homeimage/homebookstore.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:350px;
+    width:350px;
+    display: inline-block;
+    
+}
+.cbookstore a{
+    background: rgba(0,0,0,0);
+    height:350px;
+    width: 350px;
+    display: inline-block;
+    font:white;
+    overflow: hidden;
+    position: relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 3em;
+    color: white;
+}
+.cbookstore a span{
+    opacity:0;
+    color:white;
+    transition: all 0.5s;
+
+}
+.cbookstore:hover a{
+    background: rgba(0,0,0,.5)
+}
+.cbookstore:hover a span{
+    opacity: 1;
+}
+.cbookstore:hover a::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: solid 5px white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.8);
+    transition: all 0.5s;
+}
+.cbookstore a::after{
+     content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: solid 5px white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1.1);
+}
+.ccafe{
+    background-image:url(homeimage/Homecafe.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:350px;
+    width: 350px;
+    display: inline-block;
+/*    margin-top:20px;*/
+}
+.ccafe a{
+    background: rgba(0,0,0,0);
+    height:350px;
+    width: 350px;
+    display: inline-block;
+    font:white;
+    overflow: hidden;
+    position: relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 3em;
+    color: white;
+}
+.ccafe a span{
+    opacity:0;
+    color:white;
+    transition: all 0.5s;
+
+}
+.ccafe:hover a{
+    background: rgba(0,0,0,.5)
+}
+.ccafe:hover a span{
+    opacity: 1;
+}
+.ccafe:hover a::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: solid 5px white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.8);
+    transition: all 0.5s;
+}
+.ccafe a::after{
+     content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: solid 5px white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1.1);
+}
+
+.ccityhall{
+    background-image:url(homeimage/homecityhall.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:350px;
+    width: 350px;
+    display: inline-block;
+/*    margin-top:20px;*/
+}
+.ccityhall a{
+    background: rgba(0,0,0,0);
+    height:350px;
+    width:350px;
+    display: inline-block;
+    font:white;
+    overflow: hidden;
+    position: relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 3em;
+    color: white;
+}
+.ccityhall a span{
+    opacity:0;
+    color:white;
+    transition: all 0.5s;
+}
+.ccityhall:hover a{
+    background: rgba(0,0,0,.5)
+}
+.ccityhall:hover a span{
+    opacity: 1;
+}
+.ccityhall:hover a::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: solid 5px white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.8);
+    transition: all 0.5s;
+}
+.ccityhall a::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: solid 5px white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1.1);
+}
+.csidewalk{
+    background-image:url(homeimage/homesidewalk.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:350px;
+    width: 350px;
+    display: inline-block;
+/*    margin-top:20px;*/
+}
+.csidewalk a{
+    background: rgba(0,0,0,0);
+    height:350px;
+    width: 350px;
+    display: inline-block;
+    font:white;
+    overflow: hidden;
+    position: relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 3em;
+    color: white;
+}
+.csidewalk a span{
+    opacity:0;
+    color:white;
+    transition: all 0.5s;
+
+}
+.csidewalk:hover a{
+    background: rgba(0,0,0,.5)
+}
+.csidewalk:hover a span{
+    opacity: 1;
+}
+.csidewalk:hover a::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: solid 5px white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.8);
+    transition: all 0.5s;
+}
+.csidewalk a::after{
+     content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: solid 5px white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1.1);
+}
+
+
+.homefooter{
+    background-image: url(homeimage/homefooter.png);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 120px;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+

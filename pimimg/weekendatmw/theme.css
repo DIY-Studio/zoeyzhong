@@ -1,0 +1,136 @@
+body{
+    margin:0;
+}
+.menu{
+    height: 400px;
+}
+a:hover { 
+    background-color: #196275;
+}
+.mhome a{
+    height: 100px;
+    width:150px;
+    background-image: url(homelogo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 100px;
+    margin-left:100px;
+    padding-top:0.5px;
+    display: block;
+    float:left;
+    position:relative;
+}
+
+.mhome{
+    height: 100px;
+}
+.mbookstore a{
+    height: 100px;
+    width:150px;
+    background-image: url(menubookstore.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 100px;
+    display: block;
+    float:left;
+    position:relative;
+}
+.mbookstore{
+    height: 100px;
+}
+
+.mcafe a{
+    height: 100px;
+    width:150px;
+    background-image: url(menucafe.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: -50px;
+    margin-left: 100px;
+    display: block;
+    float:left;
+    position:relative;
+}
+.mcafe{
+    height: 100px;
+    margin-top: 150px;
+}
+
+.mcityhall a{
+    height: 100px;
+    width:150px;
+    background-image: url(menucityhall.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: -50px;
+    margin-left: 250px;
+    display: block;
+    float:left;
+    position:relative;
+}
+.mcityhall{
+    height: 100px;
+}
+
+.msidewalk a{
+    height: 100px;
+    width:150px;
+    background-image: url(menusidewalk.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: -50px;
+    margin-left: 100px;
+    padding-top:0.5px;
+    display: block;
+    float:left;
+    position:relative;
+}
+.msidewalk{
+    height: 100px;
+}
+
+a{
+  text-decoration: none;
+    color:white;
+}
+.footermessage{
+    color:white;
+    float: left;
+    font-size:15px;
+    font-family: skia;
+    margin-left:200px;
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+.footmessage a{
+    font-family: skia;
+    color:white;
+    font-weight: 500;
+}
+p{
+    font-family:skia;
+}
+.submenu a {
+    color:gray;
+    border: 2px solid gray;
+    padding: 5px;
+    margin-top: 10px;
+    margin-left: 5px;
+    
+}
+.submenu a:hover {
+    color:white;
+    border: 1px solid white;
+    
+}
+.submenu{
+    font-size: 28px;
+    text-align: right; 
+    height: 18px;
+    font-family: skia;
+    display: block;
+    padding:10px;
+}
+
+

@@ -1,0 +1,216 @@
+*{
+    box-sizing: border-box;
+/*    border: solid red 1px;*/
+}
+a{
+    color:inherit;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+    border-bottom: 4px solid;
+    border-bottom-color: deeppink;
+    color: white;
+}
+.logo a:hover{
+    text-decoration: underline;
+    border-bottom: none;
+    text-decoration-color: deeppink;
+}
+.container{
+    background-color: white;
+    max-width: 1200px;
+    height: 2000px;
+    padding: 0;
+    margin-top:1%;
+    overflow: hidden;   
+}
+.active{
+     border-bottom: 4px solid;
+     border-bottom-color: deeppink;
+}
+section{
+    display: block;
+}
+.section1{
+    width: auto;
+    height: 420px;
+/*    background-color: rosybrown;*/
+    
+}
+.searchbar{
+    height: 60px;
+    display: block;
+    position: relative;
+    text-align: center;
+    padding-top:20px;
+/*    background-color: rosybrown;*/
+}
+.section2{
+    width: auto;
+    height: 1300px;
+    background-color: white;
+}
+
+.slideimages{
+    height: 380px;
+    overflow: hidden;
+    position: absolute;
+}
+.slideimages img{
+    position: relative;
+    width: 1200px;
+    height: 700px;
+/*    overflow: hidden;*/
+    
+}
+
+.container-child{
+    position:absolute;
+    top:50%;
+    left:50%
+    -webkit-transform:translate(-50%,-50%);
+    transform:translate(-50%,-50%);
+}
+.flex-parent{
+    display: -webkit-flex;
+    display: flex;
+}
+
+.search-button{
+/*    border:1px solid #ccc;*/
+    border-radius:1em;
+    display: inline-block;
+}
+.search-button [type='checkbox']{
+    display:none;
+}
+.search-button label {
+    width:1.2em;
+    height:1.2em;
+    text-align: center;
+    display: inline-block;
+    vertical-align: bottom;
+}
+.search-button [type='search']{
+    border-width:0;
+    height:1.2em;
+    width: 0;
+    background-color: transparent;
+    border-radius: 1em;
+    padding:0;
+    margin:0;
+    transition:all 0.3s;
+    outline: 0;
+    border:1px solid #ccc;
+}
+.search-button [type='checkbox']:checked~[type='search'] {
+    width: 9em;
+    margin:0 0.5em
+}
+.toggle input{
+    display:none;
+}
+.toggle-fav input:checked+label{
+    color:red;
+}
+.toggle-ios{
+    font-size: 2em;
+}
+
+.toggle-ios label{
+    display: inline-block;
+    background-color: #ddd;
+    border:0.15em #ccc solid;
+    font-size: 1em;
+    border-radius:1em;
+    width:calc(2em + (0.15em * 2));
+    height: calc(1em + (0.15em *2));
+}
+.toggle-ios label span {
+    display: inline-block;
+    background-color:#eee;
+    width:1em;
+    height: 1em;
+    position: relative;
+    left:0;
+    top:0;
+    border-radius:1em;
+    transition:all 0.3s;
+}
+.toggle-ios input:checked+label span{
+    left:1em;
+}
+.row{
+    margin: 30px;
+}
+.product-item img{
+    max-width: 100%;
+    vertical-align: middle;
+}
+.product-item{
+    position:relative;
+    overflow: hidden; 
+}
+.product-description{
+    position:absolute;
+    bottom:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    padding:10px;
+    background-color:rgba(250,249,249,0.8);
+    color:black;
+    /*transfore:translateY(-100%) rotate(0deg) scale(0,0);*/
+    transform:translateY(100%);
+    transition:all .15s;
+    text-align: center;
+}
+.product-item:hover .product-description{
+    /*transform:translateY(0) rotate(360deg) scale(1.1);*/
+    transform:translateY(0);
+    transition:all 0.15s;
+}
+.product-title{
+    margin-top:50%;
+    text-align: center;
+    transition:all 0.1s;
+    transform:translateX(3em);
+    text-decoration: underline;
+    text-decoration-color: black;
+    padding-bottom:10px;
+}
+.product-item:hover .product-title{
+    transform:translateX(0);
+}
+.product-body{
+    text-align: center;
+    transition:all 0.1s;
+    transform:translateX(9em);  
+}
+.product-item:hover .product-body{
+    transform:translateX(0);
+}
+.section3{
+    width: auto;
+    height: 200px;
+    background-color: whitesmoke;
+    opacity: 0.7;
+}
+footer p{
+    width: 200px;
+    border:1px solid black;
+    text-align: center;
+    float: right;
+}
+footer li{
+    list-style: square;
+/*    float:right;*/
+}
+footer a:hover{
+    color:deeppink;
+}
+.rights{
+    margin-top:5px;
+    font-size:8px;
+}

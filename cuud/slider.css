@@ -1,0 +1,24 @@
+.slider{
+	position: relative;
+}
+
+.slider div{
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+    background: transparent;
+}
+.slider div img{
+	opacity: 0;
+	transition: opacity 1s ease-in-out;
+	object-fit: cover;
+    width: 100%;
+}
+.slider .active{
+	display: block;
+	position: relative;
+}
+.slider .active img{
+	opacity: 1;
+}

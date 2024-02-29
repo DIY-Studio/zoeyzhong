@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My shopping bag | Cuud</title>
+    
+        <link href="css/normalize.css"
+              rel=stylesheet type="text/css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
+        <link href="main.css" rel="stylesheet" type="text/css">
+        <link href="checkoutpagestyle.css" rel="stylesheet" type="text/css">
+        
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+        <script src="http://code.jquery.com/jquery-3.2.1.min.js">
+                     </script>
+        <script>
+        $(function(){
+            $(".toggle input").on("change",function(){
+                $(".total-toggles").html($(".toggle input:checked").length)
+            })
+        })
+        </script>
+    </head>
+    <body>
+        
+        <div class="container">
+            <section class="section1" >
+                <div class="topsection" id="sectiontop">
+                    <div class="leftinfo">
+                        <li><a>Shipping to: USA</a></li>
+                        <li><a>Customer care</a></li>
+                        <li><a>Store Locator</a></li>
+                    
+                    </div>
+                    <div class="rightinfo">
+                    <li><a>Log in/Register</a></li>
+                    <li>
+                        <div class="total-toggles"><span>Likes</span>&nbsp;</div>
+                    </li>
+                    <li><a>Shopping bag</a></li>
+                    
+                </div>
+                </div>
+            
+            <div class="header">
+                <div class="slideimages">  </div>
+                <?php include "nav.html"; ?>
+            </div>
+        </section>
+            
+        <section class="section2">
+            <div class="row">
+                <div class="col-sm-12 col-md-1"></div>
+                <div class="col-sm-12 col-md-10">
+                <div class="bar">
+                    <p>My Orders</p>
+                    </div></div>
+                <div class="col-sm-12 col-md-1"></div>
+            </div>
+           
+                <div class="row">
+                    <div class="col-sm-12 col-md-1"></div>
+                    <div class="col-sm-12 col-md-3">
+                        <div class="largerviewer">
+                            <img id=fullview src="bb2-1.jpg" alt="" class="product-img">
+                        </div>
+                    </div>
+                    
+            
+                    <div class="col-sm-12 col-md-5">
+                        <div >
+                            <p id="product-name">ROSY ISLAND CROSSBODY | Cuud Spring 2018</p>
+                            <p id="product-detail">Quantity: 1 | Color: Hotpink <a href="product.html"><span>Edit</span></a></p>
+                            
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-2">
+        
+                            <p id="product-name">$299.00</p>
+                            <div class="toggle toggle-fav"><span>Save for later</span>
+                            <input type="checkbox" id="favorite1">
+                            <label for="favorite1">&hearts;</label>
+                            </div>
+                    </div>
+                    
+                    <div class="col-sm-12 col-md-1"></div>
+            </div>
+                
+            
+                <div class="searchbar"></div>
+            <div class="row">
+                <div class="col-sm-12 col-md-1"></div>
+                <div class="col-sm-12 col-md-10">
+                <div class="bar2">
+                    <p>Shipping Information</p>
+                    </div></div>
+                <div class="col-sm-12 col-md-1"></div>
+            </div>
+                 <div class="row">
+                <div class="col-sm-12 col-md-1"></div>
+                <div class="col-sm-12 col-md-10">
+                <div class="bar2">
+                    <p>Billing Information</p>
+                    </div></div>
+                <div class="col-sm-12 col-md-1"></div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-md-1"></div>
+                <div class="col-sm-12 col-md-10">
+                <div class="bar2">
+                    <p>Place Order</p>
+                    </div></div>
+                <div class="col-sm-12 col-md-1"></div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-md-1"></div>
+                <div class="col-sm-12 col-md-10">
+                <div class="bar2">
+                    <p>Confirmation</p>
+                    </div></div>
+                <div class="col-sm-12 col-md-1"></div>
+            </div>
+                <div class="spacebar"></div>
+            
+            </section>
+            <hr>
+            <section class="section3">
+                <footer>
+                    <a href="#sectiontop">
+                    <p class="back">BACK TO TOP</p></a>
+                    <li>Term</li>
+                    <li>Follow us</li>
+                    <li>Career</li>
+                    <li>Return/Exchange Policy</li>
+                    <li>Subscription</li>
+                    
+                    
+                </footer>
+        <p class="rights">Zoey Zhong | All Rights Reserved</p>
+            </section>
+        
+            </div>
+        <script src='gallary.js'></script>
+     
+    </body>
+        </html>

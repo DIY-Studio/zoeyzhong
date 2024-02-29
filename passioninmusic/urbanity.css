@@ -1,0 +1,130 @@
+
+#u{
+    color:#bf2e34; 
+}
+.intro{
+    margin-top: 20%;
+    margin-bottom: 20%;
+    margin-left: 25%;
+    text-align: left;
+    height: 400px;
+    color: #bf2e34;
+    font-family:'Poiret One';
+      
+}
+
+.title{
+    margin-left: 25%;
+    color: white;
+    font-family:'Poiret One';
+    font: 2em;
+}
+.content{
+    margin-top: 10%;
+    font-size: 1em;
+    width: 400px;
+    font-family:'baskerville';
+}
+.intro{
+    margin-top: 20%;
+    margin-bottom: 20%;
+    margin-left: 25%;
+    text-align: left;
+    height: 400px;
+    color: #bf2e34;
+    font-family:'Poiret One';
+      
+}
+
+.title{
+    margin-left: 25%;
+    color: #bf2e34;
+    font-family:'Poiret One';
+}
+.content{
+    margin-top: 10%;
+    font-size: 1em;
+    width: 400px;
+    font-family:'baskerville';
+}
+.content2{
+    padding-top: 10%;
+    margin-left: 20%;
+    font-size: 1em;
+    width: 200px;
+    font-family:'baskerville';
+    color: white;
+}
+.moment{
+    z-index: 0;
+    background-image:url(image/urbanity0.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%; 
+    height: 500px;
+    background-attachment: fixed;
+    
+}
+.moment a{
+    overflow: hidden;
+    position: relative;
+    display:flex;
+    color:black;
+    text-decoration: none;
+    font-size: 3em;
+    width: 100%; 
+    height: 500px;
+}
+.moment a span{
+    opacity:0;
+    color:white;
+    transition: all 0.5s;
+    margin-top:10%;
+    margin-left: 5%;
+}
+
+.moment:hover a{
+    background-image: url(image/ubanity2.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%; 
+    height: 500px;
+    z-index: 2;
+}
+
+.moment:hover a span{
+    opacity: 1;
+}
+.guitar{
+    z-index: 0;
+    background-image:url(image/guitar1.jpg);
+    background-attachment: fixed;
+    background-position: top;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 60%; 
+    height: 600px;
+    margin-bottom: 20%;
+}
+.guitar2{
+    z-index: 0;
+    background-image:url(image/dj.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 80%; 
+    height: 600px;
+    margin-left: 40%;
+}
+
+.guitartnote{
+    
+}
+
+#top2{
+    margin-top: 20px;
+}

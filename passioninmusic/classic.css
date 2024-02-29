@@ -1,0 +1,102 @@
+#c{
+    color:#bf2e34; 
+}
+/*
+.classicparallax{
+    height: 50%;
+    width: auto;  
+    background-attachment: fixed;
+    background-image: url(image/classicheaderimg.png);
+    background-position: top right;
+    background-size:38%;
+    background-repeat: no-repeat;
+}
+*/
+
+*{
+    -webkit-box-sizing:border-box;
+}
+.intro{
+    margin-top: 20%;
+    margin-bottom: 20%;
+    margin-left: 25%;
+    text-align: left;
+    height: 400px;
+    color: #bf2e34;
+    font-family:'Poiret One';
+      
+}
+
+.title{
+    margin-left: 25%;
+    color: #bf2e34;
+    font-family:'Poiret One';
+}
+.content{
+    margin-top: 10%;
+    font-size: 1em;
+    width: 400px;
+    font-family:'baskerville';
+}
+
+
+section{
+    width:60%;
+    height: 1000px;
+    background-color: black;
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+.slideshow-captions-all{
+    position: relative;
+    margin-top: 10px;
+    color: white;
+    font-size: 20px;
+    margin: auto;
+    text-align: center;
+}
+
+.slideshow-caption{
+/*   margin: 30px;*/
+   width: auto;
+}
+.notetittle{
+    font-size: 40px;
+    width: auto;
+    font-family: Poiret One;
+    margin: auto;
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.notedetail{
+    width:280px;
+    margin: auto;
+    text-align: center;
+}
+
+section2{
+    width:100%;
+/*    height: 1000px;*/
+    display: block;
+/*    background-color: black;*/
+    text-align: center;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+.video{
+    margin-top: 10%;
+    margin-left:5%;
+    display: inline-block;
+    float: left;
+    width: 500px;
+}
+wrapper{
+    height: 1800px;
+    width: 100%;
+    display: block;
+}
+#top4{
+    margin-top: 20px;
+}

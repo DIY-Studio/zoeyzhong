@@ -1,0 +1,40 @@
+"notes":[
+"NO COMMENTS IN A JSON FILE",
+"One top level object or array",
+"[] an array, {} an object",
+"Commas go BETWEEN items in an array or object",
+"All object property names must have quote marks",
+"All string quote marks must be double quotes"
+],
+"users":[,
+
+{
+    "prodname":"ROSY ISLAND",
+    "price":299.00,
+    "description": "In the latest spring collection, we named this easy-carry crossbody with it`s energy and freshness.",
+    "color":"hotpink",
+    "size":"small"
+},
+{
+    "prodname":"WIZARD OF THE OZ",
+    "price":360.00,
+    "description": "2018 fall limited edition",
+    "color":"mint",
+    "size":"small"
+},
+{
+    "prodname":"CANDY HOUSE",
+    "price":190.00,
+    "description": "2018 fall limited edition",
+    "color":"light purple",
+    "size":"small"
+},
+         {
+    "prodname":"THE WONDERFUL PIANOIST",
+    "price":105.00,
+    "description": "2018 fall limited edition",
+    "color":"black/white",
+    "size":"small"
+},
+
+]

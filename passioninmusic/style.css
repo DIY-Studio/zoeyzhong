@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+    background-color: #fef4f4;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+@-webkit-keyframes play {
+   from { top: 0px; }
+     to { top: -20px; }
+}
+
+@-moz-keyframes play {
+   from { top: 0px; }
+     to { top: -20px; }
+}
+
+@-ms-keyframes play {
+   from { top: 0px; }
+     to { top: -20px; }
+}
+
+@-o-keyframes play {
+   from { top: 0px; }
+     to { top: -20px; }
+}
+
+@keyframes play {
+   from { top: 0px; }
+     to { top: -20px; }
+}
+
+.logo {
+    position: relative;
+    margin-top: 0;
+    
+    -webkit-animation: play 0.4s linear 0s infinite alternate;
+       -moz-animation: play 0.4s linear 0s infinite alternate;
+        -ms-animation: play 0.4s linear 0s infinite alternate;
+         -o-animation: play 0.4s linear 0s infinite alternate;
+            animation: play 0.4s linear 0s infinite alternate;
+}
+#back-to-top{
+    border: 1.5px white solid;
+}
+#top{
+   margin-top:20px; 
+}
+.menubar{
+/*    color: black;*/
+    text-align: center;
+    padding-right: 10%;
+    margin-top: 10%;
+    font-family: 'Gravitas One', cursive;
+/*    background-color: black;*/
+    
+}
+.menu{
+    text-align: center;
+    position: relative;
+    font-size: 50px;
+}
+a.menu:hover, a.menu:active {
+    color: #bf2e34;
+}
+.quote{
+    height:500px;
+    color:#bf2e34;
+    background-color:#fef4f4;
+    
+    font-family: 'Poiret One';
+    padding-top: 10%;
+    padding-bottom: 10%;
+    text-align: left;
+}
+.note{
+    color: white;
+    width:40%;
+    float: left;
+    height: 440px;
+    text-align: left;
+    padding: 3% 8% 3%;
+}
+.notetitle{  
+    font-size:34px;
+    font-family:'Poiret One';
+}
+.notedetail{
+    font-size:15px;
+}
+
+.footer{
+    text-align: center;
+    font-size:10px;
+    color: white;
+    background-color: #bf2e34;
+    width: 100%;
+    height: 50px;
+    margin-top:10px;  
+}
+#footerdetail{
+    font-size:15px;
+}

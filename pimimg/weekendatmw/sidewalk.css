@@ -1,0 +1,89 @@
+.sidewalkheader{
+    background-image: url(sidewalkimage/sidewalkheader.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height:100px;
+    margin-left:100px;
+    margin-top:20px;
+}
+.sidewalkconcept1{
+    background-image: url(sidewalkimage/sidewalkbg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 760px;
+}
+.sidewalkfooter{
+    background-image: url(sidewalkimage/sidewalkfooter.png);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 120px;
+}
+.concept2{
+    background-color: aliceblue;
+    height:400px; 
+    margin-top:5%;
+}
+.concepttext1{
+    color:#a3a3a3;
+    font-family:skia;
+    font-size:18px;
+    width:600px;
+    text-align: middle;
+    margin-left: 100px;
+    float: left;
+    margin-top:100px;
+    overflow: auto;
+}
+.concepttext2{
+    color:white;
+    font-family:skia;
+    font-size:18px;
+    width:600px;
+    text-align: middle;
+    margin-left: 100px;
+    float: left;
+    margin-top:100px;
+    overflow: auto;
+}
+.concept3{
+    background-color: #146075;
+    height:400px; 
+}
+.concept4{
+    background-color: #146075;
+    height: 400px;
+}
+.main{
+    padding: 5%;
+    background-color: #146075;
+}
+.main img{
+    overflow-x: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+.favorite{
+    background-color: #146075;
+    height:650px; 
+}
+.favorite img{
+    float: right;
+    overflow-x: 20%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#p1{
+    margin: 0 auto;
+    padding: 100px;
+    width:500px;
+    border-color: white;
+    color: white;
+}
+
+.concept5{
+    background-color: aliceblue;
+    height: 200px;
+    display: block;
+}

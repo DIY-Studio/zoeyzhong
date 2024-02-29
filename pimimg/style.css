@@ -1,0 +1,184 @@
+*{
+/*    border:red solid 1px;*/
+
+}
+body{
+    font-family: lato;
+/*    background-color: lightcyan;*/
+}
+.logo{
+    text-align: center;
+}
+.logo img{
+    margin: 1%;
+    width: 10%;
+    height: 10%;
+    
+}
+
+a{
+    text-decoration: none;
+    color: #192231;
+}
+
+nav{
+     background-color: white;
+         height: 60px;
+}
+
+
+nav a{
+    text-decoration: none;
+    color: #192231;
+    width: 100%;    
+    height: 60px;
+    text-align: left;
+    padding:10px;
+    
+}
+
+nav a:hover{
+    text-decoration: none;
+    border-bottom: 1px solid;
+    border-bottom-color: #de5e91;
+}
+
+
+
+
+/*
+.header {
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#navbar a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+*/
+
+
+
+.section2 img{
+     width: 100%;
+    height: auto;
+}
+/*
+.container{
+    margin: 0 auto;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    
+    
+    overflow: hidden;
+}
+
+.section-child{
+    position:absolute;
+    top:50%;
+    left:50%
+    -webkit-transform:translate(-50%,-50%);
+    transform:translate(-50%,-50%);
+}
+.flex-parent{
+    display: -webkit-flex;
+    display: flex;
+}
+
+.section2{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: auto;
+    background-color: white;
+    display: block;
+}
+*/
+
+#content{
+    text-align: left;
+    margin: 1%;
+    
+}
+
+.video{
+    
+    text-align: center;
+    margin: 3%;
+}
+
+#profile img{
+    width: 50%;
+    height: auto;
+}
+
+footer{
+    margin-top: 5%;
+    color: #192231;
+    
+}
+
+
+.section3 p{
+    width: 200px;
+    border:1px solid #192231;
+    text-align: center;
+    float: right;
+}
+
+footer li{
+    list-style: square;
+/*    float:right;*/
+}
+.contact{
+    text-align: center;
+}
+/*
+footer a:hover{
+    color:#de5e91;
+
+}
+*/
+/*
+.rights{
+    margin-top:5px;
+    font-size:8px;
+    color: #192231;
+}
+*/
+

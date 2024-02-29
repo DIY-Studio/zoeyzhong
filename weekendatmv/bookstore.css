@@ -1,0 +1,123 @@
+.bookstoreheader{
+    background-image: url(bookstoreimage/bookstoreheader.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height:100px;
+    margin-left:100px;
+    margin-top:20px;
+}
+.bookstoreconcept1{
+    background-image: url(bookstoreimage/homebookstoreimage3.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 760px;
+}
+.concept1{
+/*
+    background-image: url(bookstoreimage/concept1bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+*/
+    background-color: aliceblue;
+    height:500px; 
+    margin-top: 5%;
+}
+.concepttext1{
+    color:#a3aca3;
+    font-family:skia;
+    font-size:20px;
+    width:600px;
+    text-align: middle;
+    margin-left: 100px;
+    float: left;
+    margin-top:10%;
+    overflow: scroll;
+}
+
+.concepttext2{
+    color:white;
+    font-family:skia;
+    font-size:20px;
+    width:600px;
+    text-align: middle;
+    margin-left: 100px;
+    float: left;
+    margin-top:10%;
+    overflow: scroll;
+}
+.concept2{  
+    display: block;
+    height: 300px;
+    overflow: scroll;
+    background-color: #146075;
+    padding-top: 100px;
+    padding-right:70px;
+}
+.concept2 img{
+    float:right;
+    padding:8px;
+    position:relative;
+    overflow: scroll;
+    
+}
+.concept3{
+    background-color:#146075;
+    background-position: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:480px;
+    position:relative;
+}
+#fullview{
+    float: right;
+    display: block;
+    margin-right:100px; 
+    height:448px;
+    width:600px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+
+.inheader{
+    font-size:38px;
+}
+
+.concept4{
+/*
+    background-image: url(bookstoreimage/concept4bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+*/
+    background-color: #146075;
+    height:600px;
+    position:relative;
+    padding-top:10%;
+}
+#bs4{
+    margin-top: 5%;
+    margin-left: 168px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+#concept4image{
+    float: right;
+    display: block;
+    margin-right:200px;
+    margin-top:100px;
+    position:relative; 
+}
+.concept5{
+    background-color: aliceblue;
+    width: 100%;
+    height: 200px;
+}
+.bookstorefooter{
+    background-image: url(bookstoreimage/bookstorefooter.png);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 120px;
+}
+
